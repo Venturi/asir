@@ -4,7 +4,7 @@ https://control.aldryn.com/api/v1/apps/serve/aldryn-django/1.8.8.0/dfcadad2-ca0f
 https://control.aldryn.com/api/v1/apps/serve/aldryn-sso/1.0.8/da116bfc-a330-4765-a9ae-c38814d5fe53/aldryn-sso-1.0.8.tar.gz#egg=aldryn-sso==1.0.8
 https://control.aldryn.com/api/v1/apps/serve/aldryn-django-cms/3.2.0.26/d55b8caf-7eb6-405d-bbd6-1db739cdd0a2/aldryn-django-cms-3.2.0.26.tar.gz#egg=aldryn-django-cms==3.2.0.26
 https://control.aldryn.com/api/v1/apps/serve/aldryn-devsync/1.0.0/3ef3b0f0-2f98-4ca3-a4af-31d02b8ce6cb/aldryn-devsync-1.0.0.tar.gz#egg=aldryn-devsync==1.0.0
-https://control.aldryn.com/api/v1/apps/serve/aldryn-bootstrap3/1.0.6/74786fd9-d288-4a28-be22-60f42d23470f/aldryn-bootstrap3-1.0.6.tar.gz#egg=aldryn-bootstrap3==1.0.6
+https://control.aldryn.com/api/v1/apps/serve/aldryn-bootstrap3/1.0.7/bc846df6-5c9d-4e83-8363-5fb39c1d8b8f/aldryn-bootstrap3-1.0.7.tar.gz#egg=aldryn-bootstrap3==1.0.7
 https://control.aldryn.com/api/v1/apps/serve/aldryn-common/1.0.0/5b7dfbf2-577d-4e83-b902-13a82cd18220/aldryn-common-1.0.0.tar.gz#egg=aldryn-common==1.0.0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-disqus/1.0.0/a9bedf8f-077d-42f5-aec8-468872588da7/aldryn-disqus-1.0.0.tar.gz#egg=aldryn-disqus==1.0.0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-events/1.0.6.2/b72f33b2-a74a-4715-83bb-22791a0fa973/aldryn-events-1.0.6.2.tar.gz#egg=aldryn-events==1.0.6.2
