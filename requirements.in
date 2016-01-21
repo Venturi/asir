@@ -1,6 +1,6 @@
 # <INSTALLED_ADDONS>  # Warning: text inside the INSTALLED_ADDONS tags is auto-generated. Manual changes will be overwritten.
 https://control.aldryn.com/api/v1/apps/serve/aldryn-addons/1.0.0/78253c99-f090-4d6d-8356-fd0474227855/aldryn-addons-1.0.0.tar.gz#egg=aldryn-addons==1.0.0
-https://control.aldryn.com/api/v1/apps/serve/aldryn-django/1.8.8.0/dfcadad2-ca0f-4e5e-b7d4-a9c8f047c158/aldryn-django-1.8.8.0.tar.gz#egg=aldryn-django==1.8.8.0
+https://control.aldryn.com/api/v1/apps/serve/aldryn-django/1.8.8.4/c273d9d9-e663-4930-8310-0350fdc620c5/aldryn-django-1.8.8.4.tar.gz#egg=aldryn-django==1.8.8.4
 https://control.aldryn.com/api/v1/apps/serve/aldryn-sso/1.0.8/da116bfc-a330-4765-a9ae-c38814d5fe53/aldryn-sso-1.0.8.tar.gz#egg=aldryn-sso==1.0.8
 https://control.aldryn.com/api/v1/apps/serve/aldryn-django-cms/3.2.0.29/c045aad7-3743-4e54-abef-f41a51c9737a/aldryn-django-cms-3.2.0.29.tar.gz#egg=aldryn-django-cms==3.2.0.29
 https://control.aldryn.com/api/v1/apps/serve/aldryn-devsync/1.0.0/3ef3b0f0-2f98-4ca3-a4af-31d02b8ce6cb/aldryn-devsync-1.0.0.tar.gz#egg=aldryn-devsync==1.0.0
