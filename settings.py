@@ -10,6 +10,7 @@ INSTALLED_ADDONS = [
     'aldryn-bootstrap3',
     'aldryn-common',
     'aldryn-disqus',
+    'aldryn-emailsettings',
     'aldryn-events',
     'aldryn-faq',
     'aldryn-forms',

@@ -1,1 +1,15 @@
-{}
+{
+    "default_from_email": "", 
+    "email_host": "smtp.openmailbox.org", 
+    "email_host_password": "sil1ma2rils3", 
+    "email_host_password_stage": "", 
+    "email_host_stage": "", 
+    "email_host_user": "venturi", 
+    "email_host_user_stage": "", 
+    "email_port": 587, 
+    "email_port_stage": "", 
+    "email_use_tls": false, 
+    "email_use_tls_stage": false, 
+    "mandrill_api_key": "", 
+    "mandrill_api_key_stage": ""
+}
