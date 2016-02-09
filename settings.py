@@ -38,3 +38,20 @@ TEMPLATE_CONTEXT_PROCESSORS.extend([
 MIDDLEWARE_CLASSES.extend([
     # add your own middlewares here
 ])
+
+#LDAP
+
+AUTH_LDAP_SERVER_URI = "ldap://172.17.42.1"
+
+import ldap
+from django_auth_ldap.config import LDAPSearch
+
+AUTH_LDAP_BIND_DN = "venturi"
+AUTH_LDAP_BIND_PASSWORD = "asir"
+AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=People,dc=example,dc=com",
+			ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
+
+AUTHENTICATION_BACKENDS = (
+	'django_auth_ldap.backend.LDAPBackend',
+	'django.contrib.auth.backends.ModelBackend',
+)
