@@ -33,6 +33,7 @@ INSTALLED_APPS.extend([
 
 TEMPLATE_CONTEXT_PROCESSORS.extend([
     # add your template context processors here
+    TEMPLATE_DIRS, ALLOWED_INCLUDE_ROOTS, TEMPLATE_CONTEXT_PROCESSORS, TEMPLATE_LOADERS
 ])
 
 MIDDLEWARE_CLASSES.extend([
@@ -44,12 +45,19 @@ MIDDLEWARE_CLASSES.extend([
 AUTH_LDAP_SERVER_URI = "ldap://172.17.42.1"
 
 import ldap
-from django_auth_ldap.config import LDAPSearch
+from django_auth_ldap.config import LDAPSearch, PosixGroupType
 
-AUTH_LDAP_BIND_DN = "venturi"
+AUTH_LDAP_BIND_DN = "uid=asir,ou=users,dc=example,dc=com"
 AUTH_LDAP_BIND_PASSWORD = "asir"
-AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=People,dc=example,dc=com",
-			ldap.SCOPE_SUBTREE, "(uid=%(user)s)")
+
+AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=users,dc=example,dc=com",
+			ldap.SCOPE_SUBTREE, "(uid=%(user)s)"
+)
+
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=Groups,dc=example,dc=com",
+    ldap.SCOPE_SUBTREE, "(objectClass=PosixGroup)"
+)
+AUTH_LDAP_GROUP_TYPE = PosixGroupType()
 
 AUTHENTICATION_BACKENDS = (
 	'django_auth_ldap.backend.LDAPBackend',
