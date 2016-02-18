@@ -42,24 +42,23 @@ MIDDLEWARE_CLASSES.extend([
 
 #LDAP
 
-AUTH_LDAP_SERVER_URI = "ldap://172.17.42.1"
-
 import ldap
 from django_auth_ldap.config import LDAPSearch, PosixGroupType
-
-AUTH_LDAP_BIND_DN = "uid=asir,ou=users,dc=example,dc=com"
-AUTH_LDAP_BIND_PASSWORD = "asir"
-
-AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=users,dc=example,dc=com",
-			ldap.SCOPE_SUBTREE, "(uid=%(user)s)"
-)
-
-AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=Groups,dc=example,dc=com",
-    ldap.SCOPE_SUBTREE, "(objectClass=PosixGroup)"
-)
-AUTH_LDAP_GROUP_TYPE = PosixGroupType()
 
 AUTHENTICATION_BACKENDS = (
 	'django_auth_ldap.backend.LDAPBackend',
 	'django.contrib.auth.backends.ModelBackend',
 )
+
+AUTH_LDAP_SERVER_URI = "ldap://192.168.2.144:10389"
+
+AUTH_LDAP_BIND_DN = "uid=asir,ou=users,dc=example,dc=com"
+AUTH_LDAP_BIND_PASSWORD = "asir"
+AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=users,dc=example,dc=com",
+			ldap.SCOPE_SUBTREE, "(uid=%(user)s)"
+)
+AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=Groups,dc=example,dc=com",
+    ldap.SCOPE_SUBTREE, "(objectClass=PosixGroup)"
+)
+AUTH_LDAP_GROUP_TYPE = PosixGroupType()
+
