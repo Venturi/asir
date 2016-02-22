@@ -1,5 +1,5 @@
 # <DOCKER_FROM>  # Warning: text inside the DOCKER_FROM tags is auto-generated. Manual changes will be overwritten.
-FROM aldryn/base-project:3.0.4
+FROM aldryn/base-project:3.1.0
 # </DOCKER_FROM>
 
 # <DOCKER_BUILD>  # Warning: text inside the DOCKER_BUILD tags is auto-generated. Manual changes will be overwritten.
