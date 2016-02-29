@@ -28,7 +28,8 @@ aldryn_addons.settings.load(locals())
 # all django settings can be altered here
 
 INSTALLED_APPS.extend([
-    # add you project specific apps here
+	# add you project specific apps here
+	'django_extensions',
 ])
 
 TEMPLATE_CONTEXT_PROCESSORS.extend([
@@ -39,6 +40,8 @@ TEMPLATE_CONTEXT_PROCESSORS.extend([
 MIDDLEWARE_CLASSES.extend([
     # add your own middlewares here
 ])
+
+CMS_PERMISSION = True
 
 #LDAP
 
@@ -57,8 +60,15 @@ AUTH_LDAP_BIND_PASSWORD = "asir"
 AUTH_LDAP_USER_SEARCH = LDAPSearch("ou=users,dc=example,dc=com",
 			ldap.SCOPE_SUBTREE, "(uid=%(user)s)"
 )
+
 AUTH_LDAP_GROUP_SEARCH = LDAPSearch("ou=Groups,dc=example,dc=com",
     ldap.SCOPE_SUBTREE, "(objectClass=PosixGroup)"
 )
 AUTH_LDAP_GROUP_TYPE = PosixGroupType()
 
+AUTH_LDAP_USER_FLAGS_BY_GROUP = {
+	"is_active": "cn=active,ou=groups,dc=example,dc=com",
+	"is_staff": ["cn=staff,ou=groups,dc=example,dc=com",
+				"cn=admin,ou=groups,dc=example,dc=com"],
+	"is_superuser": "cn=superuser,ou=groups,dc=example,dc=com"
+}
