@@ -30,6 +30,7 @@ aldryn_addons.settings.load(locals())
 INSTALLED_APPS.extend([
 	# add you project specific apps here
 	'django_extensions',
+	'analytical',
 ])
 
 TEMPLATE_CONTEXT_PROCESSORS.extend([
@@ -72,3 +73,8 @@ AUTH_LDAP_USER_FLAGS_BY_GROUP = {
 				"cn=admin,ou=groups,dc=example,dc=com"],
 	"is_superuser": "cn=superuser,ou=groups,dc=example,dc=com"
 }
+
+#PIWIK
+
+PIWIK_DOMAIN_PATH = 'example.com/piwik'
+PIWIK_SITE_ID = '1'
