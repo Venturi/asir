@@ -12,7 +12,7 @@ https://control.aldryn.com/api/v1/apps/serve/aldryn-events/1.1.0/51bff98f-2d1f-4
 https://control.aldryn.com/api/v1/apps/serve/aldryn-faq/1.1.0/38d53934-953c-4fbe-8d5d-caf7639279bf/aldryn-faq-1.1.0.tar.gz#egg=aldryn-faq==1.1.0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-forms/2.1.1/3198baec-0b7e-4420-9597-8caafc8930aa/aldryn-forms-2.1.1.tar.gz#egg=aldryn-forms==2.1.1
 https://control.aldryn.com/api/v1/apps/serve/aldryn-jobs/1.1.0/ce4f9112-921e-4385-874e-a28e7ebfaff7/aldryn-jobs-1.1.0.tar.gz#egg=aldryn-jobs==1.1.0
-https://control.aldryn.com/api/v1/apps/serve/aldryn-newsblog/1.1.1/9fd8a455-e095-4086-b4be-e1ec54a1f160/aldryn-newsblog-1.1.1.tar.gz#egg=aldryn-newsblog==1.1.1
+https://control.aldryn.com/api/v1/apps/serve/aldryn-newsblog/1.2.0/a6b119ad-b18e-4de8-ad09-14df3f9718bb/aldryn-newsblog-1.2.0.tar.gz#egg=aldryn-newsblog==1.2.0
 https://control.aldryn.com/api/v1/apps/serve/aldryn-people/1.1.6/62c79521-d52e-4dc9-b13d-4a476b07928a/aldryn-people-1.1.6.tar.gz#egg=aldryn-people==1.1.6
 https://control.aldryn.com/api/v1/apps/serve/aldryn-style/1.0.1/d5f209d4-6084-4e93-a538-e27b50e22b09/aldryn-style-1.0.1.tar.gz#egg=aldryn-style==1.0.1
 # </INSTALLED_ADDONS>
