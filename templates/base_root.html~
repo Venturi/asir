@@ -55,6 +55,5 @@
     </p>
     <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
 </div>
-{% piwik %}
 </body>
 </html>
