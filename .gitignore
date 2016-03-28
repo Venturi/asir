@@ -6,3 +6,6 @@
 /node_modules
 /.env-local
 .aldryn
+/tools
+/addons
+/addons-dev
