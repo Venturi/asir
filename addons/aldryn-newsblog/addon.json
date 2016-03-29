@@ -11,7 +11,7 @@
         "filer", 
         "sortedm2m", 
         "taggit", 
-        "treebeard"
+        "treebeard" 
     ], 
     "package-name": "aldryn-newsblog"
 }
