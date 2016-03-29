@@ -1,4 +1,5 @@
 <!doctype html>{% load i18n staticfiles cms_tags sekizai_tags %}
+{% load piwik %}
 <html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="utf-8">
@@ -54,5 +55,6 @@
     </p>
     <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
 </div>
+{% piwik %}
 </body>
 </html>
