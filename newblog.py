@@ -37,4 +37,4 @@ class Command(BaseCommand):
 
 		page.publish(language='en')
 
-		self.stdout.write(self.style.SUCCESS('Se ha creado la página para el usuario "%s" con éxito' % usuario))
+		self.stdout.write('Se ha creado el blog para el usuario "%s"' % usuario)

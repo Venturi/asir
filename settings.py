@@ -54,7 +54,7 @@ AUTHENTICATION_BACKENDS = (
 	'django.contrib.auth.backends.ModelBackend',
 )
 
-AUTH_LDAP_SERVER_URI = "ldap://192.168.2.131:10389"
+AUTH_LDAP_SERVER_URI = "ldap://192.168.2.159:10389"
 
 AUTH_LDAP_BIND_DN = "uid=asir,ou=users,dc=example,dc=com"
 AUTH_LDAP_BIND_PASSWORD = "asir"
